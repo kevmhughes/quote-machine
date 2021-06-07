@@ -12,7 +12,7 @@ class App extends Component {
   render () {
     return (
       <div>
-        <Quote dataURL={this.state.dataURL}/>
+        <Quote dataURL={this.state.dataURL} />
       </div>
     );
   }
