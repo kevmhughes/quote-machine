@@ -44,7 +44,7 @@ User Story #11: The #quote-box wrapper element should be horizontally centered. 
 * Node
 
 # Library
-* Boostrap
+* Bootstrap
 
 # API
 https://type.fit/api/quotes
