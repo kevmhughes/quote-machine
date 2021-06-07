@@ -1,7 +1,7 @@
 # Quote Machine
 
 ### What is it:
-
+A random quote machine built with React as part of the freeCodeCamp Front End Development Libraries course.
 
 ### Objective:
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/qRZeGZ.
