@@ -11,6 +11,9 @@ export default class Quote extends Component {
     }
   }
 
+
+
+  
   readData = (dataURL) => {
     fetch(dataURL)
       .then((res) => res.json())
@@ -20,7 +23,6 @@ export default class Quote extends Component {
           loading: false,
           quotes,
         });
-        console.log(quotes)
       })
       .catch(console.log);
   };
@@ -29,8 +31,8 @@ export default class Quote extends Component {
     this.readData(this.props.dataURL);
   }
 
-  changeState() {
-    
+  handleClick = () => {
+    this.readData(this.props.dataURL);
   }
 
   render () {
@@ -41,11 +43,21 @@ export default class Quote extends Component {
 
     const quote = quotes[Math.floor(Math.random() * 1343)];
     console.log(quote)
+
+    var x = Math.floor(Math.random() * 256);
+    var y = Math.floor(Math.random() * 256);
+    var z = Math.floor(Math.random() * 256);
+    var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+    console.log(bgColor);
+    const styles  = {
+      backgroundColor: bgColor
+    }
+      
     return (
-      <div id="quote-box">
+      <div id="quote-box" style={styles}>
         <div id="text">{quote.text}</div>
         <div id="author">{quote.author}</div>
-      <button id="new-quote"type="button" className="btn btn-primary" onClick={this.changeState}>New quote</button>
+      <button id="new-quote"type="button" className="btn btn-primary" onClick={this.handleClick}>New quote</button>
         <a id="tweet-quote" href="twitter.com/intent/tweet" aria-label="tweet this quote">tweet</a>
       </div>
     );
