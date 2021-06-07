@@ -1,10 +1,18 @@
 import React, {Component} from 'react';
+import Quote from './components/quote/quote';
 
 class App extends Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      dataURL: 'https://type.fit/api/quotes',
+    }
+  }
+
   render () {
     return (
-      <div id="quote-box">
-        <p>Hello</p>
+      <div>
+        <Quote dataURL={this.state.dataURL}/>
       </div>
     );
   }
