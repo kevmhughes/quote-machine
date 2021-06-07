@@ -33,8 +33,8 @@ User Story #10: I can tweet the current quote by clicking on the #tweet-quote a 
 User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
 # Screenshots 
-![Screenshot 2021-06-08 at 00 24 25](https://user-images.githubusercontent.com/48656356/121095283-5958c380-c7f0-11eb-8551-7538957180e3.png)
-![Screenshot 2021-06-08 at 00 23 21](https://user-images.githubusercontent.com/48656356/121095305-65dd1c00-c7f0-11eb-867f-e66a9956e4b8.png)
+<img src="https://user-images.githubusercontent.com/48656356/121095283-5958c380-c7f0-11eb-8551-7538957180e3.png" width=100%">
+<img src="https://user-images.githubusercontent.com/48656356/121095305-65dd1c00-c7f0-11eb-867f-e66a9956e4b8.png" width="350">
 
 
 # See Live app here:
