@@ -1,6 +1,6 @@
 # Quote Machine
 
-### What is it:
+### What is it?:
 A responsive random quote machine app built with React as part of the freeCodeCamp Front End Development Libraries course.
 
 ### Objective:
