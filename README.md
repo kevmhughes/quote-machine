@@ -40,8 +40,7 @@ User Story #11: The #quote-box wrapper element should be horizontally centered. 
 <img src="https://user-images.githubusercontent.com/48656356/121095305-65dd1c00-c7f0-11eb-867f-e66a9956e4b8.png" width="250">
                                                                                                                             
 
-
-# See Live app here:
+# See Live App Here:
 https://kevmhughes.github.io/quote-machine/
 
 
